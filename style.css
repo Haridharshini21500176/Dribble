@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #e91e63;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.auth a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Filter Bar Styles */
+.filter-bar {
+    background-color: #e91e63;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-options a {
+    background-color: white;
+    color: #e91e63;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.filter-options a:hover {
+    background-color: #ff80ab;
+    color: white;
+}
+
+/* Shots Gallery Styles */
+.shots-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.shot-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.shot-item:hover {
+    transform: translateY(-5px);
+}
+
+.shot-item img {
+    width: 100%;
+    height: auto;
+}
+
+.shot-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.shot-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.shot-meta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #666;
+}
+
+.shot-meta p {
+    margin: 0;
+}
+
+.shot-meta-1 p {
+    margin: 0;
+}
